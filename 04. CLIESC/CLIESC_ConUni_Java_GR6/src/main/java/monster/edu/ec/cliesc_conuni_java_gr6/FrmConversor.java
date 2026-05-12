@@ -218,7 +218,7 @@ public class FrmConversor extends JFrame {
         btnLimpiar.setBorder(BorderFactory.createEmptyBorder(12, 16, 12, 16));
         btnLimpiar.addActionListener(this::btnLimpiarActionPerformed);
 
-        btnVolver = new JButton("Volver");
+        btnVolver = new JButton("Cerrar sesion");
         btnVolver.setFont(new Font("Segoe UI", Font.BOLD, 14));
         btnVolver.setBackground(new Color(100, 116, 139));
         btnVolver.setForeground(Color.WHITE);
@@ -343,9 +343,10 @@ public class FrmConversor extends JFrame {
     }
 
     private void btnVolverActionPerformed(java.awt.event.ActionEvent evt) {
-        FrmMenu menu = new FrmMenu();
-        menu.setVisible(true);
-        menu.setLocationRelativeTo(null);
+        // Regresamos al Login para "cerrar sesión"
+        FrmLogin login = new FrmLogin();
+        login.setVisible(true);
+        login.setLocationRelativeTo(null);
         dispose();
     }
 
