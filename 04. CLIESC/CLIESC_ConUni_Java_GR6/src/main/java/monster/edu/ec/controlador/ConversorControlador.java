@@ -10,7 +10,7 @@ import monster.edu.ec.modelo.Conversor;
 
 public class ConversorControlador {
 
-    private static final String BASE_URL = "http://192.168.1.12:8082/WS_CONUNI_JAVA_GR6/api/conversor";
+    private static final String BASE_URL = "http://10.9.7.189:8080/WS_CONUNI_JAVA_GR6/api/conversor";
     private static final Gson gson = new Gson();
 
     private static Conversor llamarServicio(String endpoint, double valor) throws Exception {

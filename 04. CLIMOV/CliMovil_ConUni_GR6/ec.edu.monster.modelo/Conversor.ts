@@ -1,4 +1,4 @@
-export const API_URL = 'http://192.168.1.12:8082/WS_CONUNI_JAVA_GR6/api/conversor'
+export const API_URL = 'http://10.9.7.189:8080/WS_CONUNI_JAVA_GR6/api/conversor'
 
 export type Operacion = { code: string; label: string; endpoint: string }
 
