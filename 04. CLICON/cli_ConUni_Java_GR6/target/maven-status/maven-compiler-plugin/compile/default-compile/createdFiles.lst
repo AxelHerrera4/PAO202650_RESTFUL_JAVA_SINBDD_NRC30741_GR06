@@ -1,3 +1,3 @@
-monster\edu\ec\cli_conuni_java_gr6\ConversorClient.class
-monster\edu\ec\cli_conuni_java_gr6\Cli_ConUni_Java_GR6.class
-monster\edu\ec\cli_conuni_java_gr6\Conversor.class
+monster\edu\ec\modelo\Conversor.class
+monster\edu\ec\controlador\ConversorControlador.class
+monster\edu\ec\vista\Cli_ConUni_Java_GR6.class
